@@ -15,6 +15,6 @@ spec:
       autoscaling.knative.dev/minScale: "1"
   source:
     git:
-      url: https://github.com/sample-accelerators/hello-world
+      url: https://github.com/serpiko2/ko2-demo-acc
       ref:
         branch: main
