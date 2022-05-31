@@ -1,6 +1,6 @@
 accelerator:
-  displayName: Hello World
-  description: Hello World sample project for Spring Boot
+  displayName: KO2 Demo app
+  description: Simple Hello world acc created for KO2 demo
   iconUrl: https://images.freecreatives.com/wp-content/uploads/2015/05/smiley-559124_640.jpg
   tags:
   - java
