@@ -41,7 +41,7 @@ spec:
           value: KO2 Team
         - name: JAVA_TOOL_OPTIONS
           value: -Dmanagement.endpoint.health.probes.add-additional-paths="true" -Dmanagement.endpoint.health.show-details=always -Dmanagement.endpoints.web.base-path="/actuator" -Dmanagement.endpoints.web.exposure.include=* -Dmanagement.health.probes.enabled="true" -Dmanagement.server.port="8081" -Dserver.port="8080" -Dserver.shutdown.grace-period="24s"
-        image: index.docker.io/ko2syseng/ko2-demo-acc-tap-install@sha256:9c0f9c597c0a187b7012890ef791bda82b9a5055cf3b1b7604f7ecadb8770d0c
+        image: index.docker.io/ko2syseng/ko2-demo-acc-tap-install@sha256:fd55c655d14d097bb944798942cbb38710cfac3f44ecd2293b5c07a111f68955
         livenessProbe:
           httpGet:
             path: /livez
